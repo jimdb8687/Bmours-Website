@@ -1,0 +1,14 @@
+/* Put your custom styles here */
+
+.aspen-page-content {
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.page-content {
+    min-height: calc(100vh - 70px);
+}
+
+.aspen-footer {
+    height: 50px;
+}
