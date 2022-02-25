@@ -1,0 +1,32 @@
+Sidecar = {
+	Date = "2020-02-11T11:34:37Z",
+	Software = "DxO PhotoLab 3.1.2 42",
+	Source = {
+		Items = {
+			{
+			Albums = "",
+			CreationDate = "2020-02-11T11:22:29Z",
+			ModificationDate = "2020-02-11T11:22:29Z",
+			Name = "checkin-logo.jpg",
+			OutputItems = {
+			},
+			ProcessingStatus = 1,
+			Rank = 0,
+			Rotation = 0,
+			Settings = {
+				AppliedPresetDisplayName = "",
+				AppliedPresetUniqueName = "",
+				Base = {
+				},
+				Overrides = {
+				},
+				Version = "14.0",
+			},
+			ShouldProcess = 2,
+			Uuid = "8E77BD95-6272-470D-95AA-26DEE9F4526D",
+			},
+		},
+		Uuid = "4CD56C6E-7EE3-4CBC-9B3C-F5E7DDB5EE09",
+	},
+	Version = "14.0",
+}

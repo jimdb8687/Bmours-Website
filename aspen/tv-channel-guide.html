@@ -1,0 +1,355 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="keywords" content="">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+        <link rel="shortcut icon" type="image/png" href="../favicon.png">
+        <link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="../style.css?8463">
+        <link rel="stylesheet" type="text/css" href="../css/animate.css?7253">
+        <link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="../css/ionicons.min.css">
+        <link href='https://fonts.googleapis.com/css?family=Droid+Serif&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        <title>aspen-dishwasher</title>
+        <!-- Analytics -->
+        <!-- Analytics END -->
+        <link rel="stylesheet" href="../components/pg.blocks/css/blocks.css">
+        <link rel="stylesheet" href="../components/pg.blocks/css/plugins.css">
+        <link rel="stylesheet" href="../components/pg.blocks/css/style-library-1.css">
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700">
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/css/foundation.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous"> -->
+        <link rel="stylesheet" href="../components/pg.blocks.wp/css/blocks.css">
+        <link rel="stylesheet" href="../components/pg.blocks.wp/css/plugins.css">
+        <link rel="stylesheet" href="../components/pg.blocks.wp/css/style-library-1.css">
+    </head>
+    <body>
+        <!-- Main container -->
+        <div class="page-container">
+            <!-- aspen-guidebook-title -->
+            <nav class="navbar row navbar-light navbar-expand-md aspen-navbar bg-dark mb-1 nobull" role="navigation" data-pgc="aspen.navbar">
+                <div class="col-auto pl-2 py-auto pl-lg-4">
+                    <a class="navbar-brand link-style d-block float-right" href="index.html" data-pg-collapsed> <img alt="logo" class="aspen-icon pt-auto pb-auto" src="img/logo/small/Png/4x/Mono%20-%20Standard@4x.png"/> </a>
+                </div>
+                <button id="nav-toggle" type="button" class="ui-navbar-toggler navbar-toggler border-0 ml-auto mr-md-0 menu-icon-rounded-uneven-b-list p-4" data-toggle="collapse" data-target=".navbar-1" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse special-dropdown-nav sidebar-nav pr-4 navbar-aspen nobull">
+                    <ul class="site-navigation nav navbar-nav none ml-auto">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link ltc-light-gray nobull">Guidebooks</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="check-in.html" class="nav-link ltc-light-gray nobull">Check In</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contact.html" class="nav-link  ltc-light-gray ltc-5648">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contact.html" class="nav-link a-btn ltc-light-gray ltc-5648 no-shadow">Feedback</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div data-pg-name="Page Content" class="bg-light aspen-contact-content aspen-page-content">
+                <h3 class="text-nowrap text-center "><u>Aspen Comcast Channels</u></h3>
+                <!-- TODO: Make Search Functionality for channels -->
+                <!--
+                <div class="pt-1 row">
+                    <div class="col-11 col-md-8">
+                    </div>
+                    <div class="col-11 col-md-4">
+                        <input type="search" id="container-search" value="" class="form-control" placeholder="Search...">
+                    </div>-->
+            </div>
+            <!-- <div class="container h-100">
+                <div class="d-flex justify-content-center h-100">
+                    <div class="searchbar">
+                        <input class="search_input" type="text" name="" placeholder="Search...">
+                        <a href="#" class="search_icon"><i class="fas fa-search"></i></a>
+                    </div>
+                </div>
+            </div> -->
+            <ul class="nav nav-pills bg-light border-top-0 border-left-0 border-dark border border-right-0 nav-justified" id="pills-tab" role="tablist" data-pg-name="Pills">
+                <li class="nav-item active aspen-pills" data-pg-name="HD">
+                    <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-hd" role="tab" aria-controls="pills-home" aria-selected="true">HD</a>
+                </li>
+                <li class="nav-item aspen-pills" data-pg-name="Standard">
+                    <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-standard" role="tab" aria-controls="pills-profile" aria-selected="false">Standard</a>
+                </li>
+            </ul>
+            <!-- Pill Page Content -->
+            <div class="tab-content" id="pills-tabContent" data-pg-name="Pill Pages">
+                <!-- HD Channel Guide -->
+                <div class="tab-pane show active fade bg-light pt-2" id="pills-hd" role="tabpanel" aria-labelledby="pills-home-tab" data-pg-name="HD">
+                    <div class="row container-fluid ">
+                        <!-- DH Col 1 -->
+                        <div class="col-11 col-md-6 mx-auto" data-pg-name="Col 1">
+                            <ul class="list-group">
+                                <a href="docs/aspen-comcast-channels.pdf" target="_blank"> <li class="list-group-item text-primary">HD Channel PDF Download</li> </a>
+                                <li class="list-group-item">647: KCEC HD(Univision)</li>
+                                <li class="list-group-item">648: ION</li>
+                                <li class="list-group-item">652: KMGH HD(ABC)</li>
+                                <li class="list-group-item">653: KUSA HD(NBC)</li>
+                                <li class="list-group-item">654: KCNC HD(CBS)</li>
+                                <li class="list-group-item">655: KDVR HD(FOX)</li>
+                                <li class="list-group-item">656: KWGN HD(CW)</li>
+                                <li class="list-group-item">657: KTDV HD(My Network TV)</li>
+                                <li class="list-group-item">658: KRMA HD</li>
+                                <li class="list-group-item">659: KREG HD (CBS)</li>
+                                <li class="list-group-item">660: CPT12</li>
+                                <li class="list-group-item">663: Velocity HD</li>
+                                <li class="list-group-item">664: AXS TV HD</li>
+                                <li class="list-group-item">665: Root Sports Rocky Mountain H</li>
+                                <li class="list-group-item">667: TNT HD</li>
+                                <li class="list-group-item">668: ESPN HD</li>
+                                <li class="list-group-item">670: ESPN2 HD</li>
+                                <li class="list-group-item">671: Palladia HD</li>
+                                <li class="list-group-item">672: Golf HD</li>
+                                <li class="list-group-item">674: National Geographic HD</li>
+                                <li class="list-group-item">799: WGN America HD</li>
+                                <li class="list-group-item">673: Universal HD</li>
+                                <li class="list-group-item">675: A&E HD</li>
+                                <li class="list-group-item">677: TLC HD</li>
+                                <li class="list-group-item">678: TBS HD</li>
+                                <li class="list-group-item">679: Disney Channel HD</li>
+                                <li class="list-group-item">680: ABC Family HD</li>
+                                <li class="list-group-item">681: Food Network HD</li>
+                                <li class="list-group-item">682: HGTV HD</li>
+                                <li class="list-group-item">688: SyFy HD</li>
+                                <li class="list-group-item">689: NBC Sports Network HD</li>
+                                <li class="list-group-item">691: FX HD</li>
+                                <li class="list-group-item">692: FXX</li>
+                                <li class="list-group-item">721: QVC HD</li>
+                                <li class="list-group-item">723: Discovery Channel HD</li>
+                                <li class="list-group-item">728: Altitude Sports HD</li>
+                                <li class="list-group-item">732: Cartoon Network HD</li>
+                                <li class="list-group-item">733: Nickelodeon HD</li>
+                            </ul>
+                        </div>
+                        <!-- HD Col 2: -->
+                        <div class="col-11 col-md-6 mx-auto" data-pg-name="Col 2">
+                            <ul class="list-group">
+                                <li class="list-group-item">735: Hallmark Channel HD</li>
+                                <li class="list-group-item">736: Spike HD</li>
+                                <li class="list-group-item">738: Animal Planet HD</li>
+                                <li class="list-group-item">741: Bloomberg TV HD</li>
+                                <li class="list-group-item">742: The Weather Channel</li>
+                                <li class="list-group-item">743: CNN HD</li>
+                                <li class="list-group-item">744: HLN HD</li>
+                                <li class="list-group-item">745: Fox News Channel HD</li>
+                                <li class="list-group-item">746: CNBC HD</li>
+                                <li class="list-group-item">747: MSNBC HD</li>
+                                <li class="list-group-item">748: USA Network HD</li>
+                                <li class="list-group-item">749: Lifetime HD</li>
+                                <li class="list-group-item">750: Oxygen HD</li>
+                                <li class="list-group-item">751: Comedy Central HD</li>
+                                <li class="list-group-item">752: Bravo HD</li>
+                                <li class="list-group-item">753: E! HD</li>
+                                <li class="list-group-item">757: AMC HD</li>
+                                <li class="list-group-item">760: MTV HD</li>
+                                <li class="list-group-item">761: VH1 HD</li>
+                                <li class="list-group-item">765: Travel Channel HD</li>
+                                <li class="list-group-item">771: truTV HD</li>
+                                <li class="list-group-item">773: BBC America HD</li>
+                                <li class="list-group-item">777: Fox Sports 1 HD</li>
+                                <li class="list-group-item">782: POP HD</li>
+                                <li class="list-group-item">783: WE</li>
+                                <li class="list-group-item">784: FYI HD</li>
+                                <li class="list-group-item">787: Esquire HD</li>
+                                <li class="list-group-item">790: H2 HD</li>
+                                <li class="list-group-item">791: Investigation Discovery HD</li>
+                                <li class="list-group-item">793: FBN</li>
+                                <li class="list-group-item">795: BET HD</li>
+                                <li class="list-group-item">796: HSN HD</li>
+                                <li class="list-group-item">836: UP HD</li>
+                                <li class="list-group-item">838: Sprout HD</li>
+                                <li class="list-group-item">840: PAC 12 Network HD (Regional)</li>
+                                <li class="list-group-item">857: Hallmark Movie Channel HD</li>
+                                <li class="list-group-item">858: LMN HD</li>
+                                <li class="list-group-item">900: CET</li>
+                                <li class="list-group-item">901-950: Music Choice</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Standard Def Channel Guide -->
+                <div class="fade tab-pane container-fluid" id="pills-standard" role="tabpanel" aria-labelledby="pills-profile-tab" data-pg-name="Standard">
+                    <div class="row container-fluid pt-2">
+                        <!-- Standard Col 1 -->
+                        <div class="col-11 col-md-6" data-pg-name="Col 1">
+                            <ul class="list-group">
+                                <a href="docs/aspen-comcast-channels.pdf" target="_blank"> <li class="list-group-item text-primary">HD Channel PDF Download</li> </a>
+                                <li class="list-group-item"> 2: KWNG (CW)</li>
+                                <li class="list-group-item"> 3: KREG (CBS) Grand Junction</li>
+                                <li class="list-group-item"> 4: KCNC (CBS)</li>
+                                <li class="list-group-item"> 5: KTVD (My Network TV)</li>
+                                <li class="list-group-item"> 6: KRMA (PBS)</li>
+                                <li class="list-group-item"> 7: KMGH (ABC)</li>
+                                <li class="list-group-item"> 8: Pitkin County Channel</li>
+                                <li class="list-group-item"> 9: KUSA (NBC)</li>
+                                <li class="list-group-item"> 10: CPT</li>
+                                <li class="list-group-item"> 11: The Government Channel</li>
+                                <li class="list-group-item"> 12: Grass Roots</li>
+                                <li class="list-group-item"> 13: KDVR (FOX)</li>
+                                <li class="list-group-item"> 14: KZCO (Azteca America)</li>
+                                <li class="list-group-item"> 15: KCEC (Univision)</li>
+                                <li class="list-group-item"> 16: HSN</li>
+                                <li class="list-group-item"> 17: Basalt Local Access</li>
+                                <li class="list-group-item"> 18: KDEN (Telemundo)</li>
+                                <li class="list-group-item"> 19: KCXP</li>
+                                <li class="list-group-item"> 20: C-SPAN</li>
+                                <li class="list-group-item"> 21: QVC</li>
+                                <li class="list-group-item"> 22: KPXC (ION)</li>
+                                <li class="list-group-item"> 23: Discovery Channel</li>
+                                <li class="list-group-item"> 24: Golf Channel</li>
+                                <li class="list-group-item"> 25: ESPN</li>
+                                <li class="list-group-item"> 26: ESPN2</li>
+                                <li class="list-group-item"> 27: Root Sports Rocky Mountain</li>
+                                <li class="list-group-item"> 28: ALT</li>
+                                <li class="list-group-item"> 29: NBC Sports Network</li>
+                                <li class="list-group-item"> 30: Disney Channel</li>
+                                <li class="list-group-item"> 31: ABC Family</li>
+                                <li class="list-group-item"> 32: Cartoon Network</li>
+                                <li class="list-group-item"> 33: Nickelodeon</li>
+                                <li class="list-group-item"> 34: TV Land</li>
+                                <li class="list-group-item"> 35: Hallmark Channel</li>
+                                <li class="list-group-item"> 36: Spike</li>
+                                <li class="list-group-item"> 37: TLC</li>
+                                <li class="list-group-item"> 38: Animal Planet</li>
+                                <li class="list-group-item"> 39: History</li>
+                                <li class="list-group-item"> 40: A&E</li>
+                                <li class="list-group-item"> 41: HGTV</li>
+                                <li class="list-group-item"> 42: The Weather Channel</li>
+                                <li class="list-group-item"> 43: CNN</li>
+                                <li class="list-group-item"> 44: HLN</li>
+                                <li class="list-group-item"> 45: Fox News Channel</li>
+                                <li class="list-group-item"> 46: CNBC</li>
+                                <li class="list-group-item"> 47: MSNBC</li>
+                                <li class="list-group-item"> 48: Bloom</li>
+                                <li class="list-group-item"> 49: Lifetime</li>
+                                <li class="list-group-item"> 50: FX</li>
+                                <li class="list-group-item"> 51: Comedy Central</li>
+                                <li class="list-group-item"> 52: Bravo</li>
+                                <li class="list-group-item"> 53: E!</li>
+                                <li class="list-group-item"> 54: Oxygen</li>
+                                <li class="list-group-item"> 55: Syfy</li>
+                                <li class="list-group-item"> 56: USA</li>
+                                <li class="list-group-item"> 57: AMC</li>
+                            </ul>
+                        </div>
+                        <!-- Stardard Col 2 -->
+                        <div class="col-11 col-md-6" data-pg-name="Col 2">
+                            <ul class="list-group">
+                                <li class="list-group-item"> 60: MTV</li>
+                                <li class="list-group-item"> 61: VH1</li>
+                                <li class="list-group-item"> 62: TNT</li>
+                                <li class="list-group-item"> 63: Food Network</li>
+                                <li class="list-group-item"> 65: Travel Channel</li>
+                                <li class="list-group-item"> 66: BET</li>
+                                <li class="list-group-item"> 71: truTV</li>
+                                <li class="list-group-item"> 79: Jewelry TV</li>
+                                <li class="list-group-item"> 80: HSN2</li>
+                                <li class="list-group-item"> 82: Aspen 82</li>
+                                <li class="list-group-item"> 94: Leased Access</li>
+                                <li class="list-group-item"> 86: GEMS</li>
+                                <li class="list-group-item"> 87: WOW</li>
+                                <li class="list-group-item"> 95: WGN America</li>
+                                <li class="list-group-item"> 97: DEN61</li>
+                                <li class="list-group-item"> 98: Local</li>
+                                <li class="list-group-item">105: CET</li>
+                                <li class="list-group-item">119: Sprout</li>
+                                <li class="list-group-item">128: Bloomberg TV</li>
+                                <li class="list-group-item">130: FBN</li>
+                                <li class="list-group-item">149: MoviePlex</li>
+                                <li class="list-group-item">162: BBC America</li>
+                                <li class="list-group-item">165: Colorado Channel</li>
+                                <li class="list-group-item">184: POP</li>
+                                <li class="list-group-item">185: Hallmark Channel</li>
+                                <li class="list-group-item">188: Jewelry TV</li>
+                                <li class="list-group-item">220: OWN</li>
+                                <li class="list-group-item">221: INSP</li>
+                                <li class="list-group-item">230: KPJR (TBN)</li>
+                                <li class="list-group-item">236: KPJR (The Church Channel)</li>
+                                <li class="list-group-item">237: KPJR (Enlacel</li>
+                                <li class="list-group-item">238: KPJR (JCTV)</li>
+                                <li class="list-group-item">239: KPJR Smile of a Child)</li>
+                                <li class="list-group-item">243: KRMT (Daystar)</li>
+                                <li class="list-group-item">245: KRMA (PBS Create)</li>
+                                <li class="list-group-item">249: KUSA (9 News Weather Plus)</li>
+                                <li class="list-group-item">250: KTDV (Me TV)</li>
+                                <li class="list-group-item">251: KBDI (CPT+)</li>
+                                <li class="list-group-item">252: KBDI (Mhz Worldwide)</li>
+                                <li class="list-group-item">253: KDVR (Antenna TV)</li>
+                                <li class="list-group-item">254: TJN</li>
+                                <li class="list-group-item">256: KWGN (This TV)</li>
+                                <li class="list-group-item">259: KCEC (LATV)</li>
+                                <li class="list-group-item">261: KDEN (Exitos)</li>
+                                <li class="list-group-item">271: Investigation Discovery</li>
+                                <li class="list-group-item">273: National Geographic</li>
+                                <li class="list-group-item">275: FYI</li>
+                                <li class="list-group-item">276: H2</li>
+                                <li class="list-group-item">299: XFINITY Latino</li>
+                                <li class="list-group-item">333:/633 KPJR</li>
+                                <li class="list-group-item">408: Fox Sports 1</li>
+                                <li class="list-group-item">430: PAC 12 Network (regional)</li>
+                                <li class="list-group-item">482: UP</li>
+                                <li class="list-group-item">502: WE</li>
+                                <li class="list-group-item">504: LMN</li>
+                                <li class="list-group-item">507: Hallmark Movie Channel</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- aspen-guidebook-title END -->
+        <!-- ScrollToTop Button -->
+        <!-- Start of Footer -->
+        <a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1',this)"><span class="fa fa-chevron-up"></span></a>
+        <div class="footer bgc-platinum bloc" data-pg-name="Footer" data-pgc="aspen-footer-comp">
+            <div class="container ">
+                <div class="row ">
+                    <div class="col-md-4 col-12 col-sm-6">
+                        <a href="contact.html" class="a-btn a-block footer-link d-block text-md-center text-sm-center text-center text-dark">Contact</a>
+                    </div>
+                    <div class="col-md-4 col-12 col-sm-6">
+                        <a href="index.html" class="a-btn a-block footer-link d-block text-md-center text-sm-center text-center text-dark">Guidebooks</a>
+                    </div>
+                    <div class="col-md-4 col-12 col-sm-6 ">
+                        <a href="contact.html" class="a-btn a-block footer-link d-block text-md-center text-sm-center text-center text-dark">Guess Feedback</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ScrollToTop Button END-->
+        <script type="text/javascript" src="../components/pg.blocks.wp/js/plugins.js"></script>
+        <script type="text/javascript" src="../components/pg.blocks.wp/js/bskit-scripts.js"></script>
+        <script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=true"></script>
+    </div>
+    <!-- Main container END -->
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../js/bootstrap.bundle.js?8031"></script>
+    <script src="../js/blocs.js?9729"></script>
+    <script src="../js/lazysizes.min.js" defer></script>
+    <!-- Additional JS END -->
+    <!-- Preloader -->
+    <div id="page-loading-blocs-notifaction" class="page-preloader"></div>
+    <!-- Preloader END -->
+    <script type="text/javascript" src="https://use.fontawesome.com/releases/v5.6.3/js/all.js"></script>
+    <script type="text/javascript" src="../components/pg.blocks/js/plugins.js"></script>
+    <script type="text/javascript" src="../components/pg.blocks/js/bskit-scripts.js"></script>
+    <script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=true"></script>
+    <script type="text/javascript" src="../components/pg.blocks.wp/js/plugins.js"></script>
+    <script type="text/javascript" src="../components/pg.blocks.wp/js/bskit-scripts.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/js/foundation.min.js"></script>
+    <script type="text/javascript" src="../assets/js/popper.js"></script>
+    <script type="text/javascript" src="../bootstrap/js/bootstrap.js"></script>
+</body>

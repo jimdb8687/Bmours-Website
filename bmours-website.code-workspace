@@ -1,0 +1,16 @@
+{
+	"folders": [{
+		"path": ".",
+
+	}],
+	"settings": {
+		"liveServer.settings.port": 5501,
+		"files.autoSave": "onFocusChange",
+		"liveServer.settings.wait": 7000,
+		"liveServer.settings.fullReload": false,
+		"browser-preview.chromeExecutable": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+		"prettier.eslintIntegration": true,
+		"editor.formatOnSave": false
+
+	}
+}
